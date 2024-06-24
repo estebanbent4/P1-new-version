@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+body{
+    background-color: var(--color-1);
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+
+:root{
+    /* --color-1: rgb(228, 228, 228); */
+     --color-1: rgb(20, 20, 20); 
+    --color-3: #ff28e2;
+    --color-4: #686868;
+    --color-blanco: #fff;
+    --fuente-1: 'IBM Plex Mono', monospace;
+    --fuente-2: 'Geologica', sans-serif;
+}

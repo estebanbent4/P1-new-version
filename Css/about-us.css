@@ -1,0 +1,39 @@
+
+
+.titulo-about h2{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+
+.titulo-about {
+    position: relative;
+    top: 220px;
+    margin: auto;
+    margin-top: 100px;
+    font-family: var(--fuente-2);
+    color: var(--color-3);
+    text-transform: uppercase;
+    
+    border-bottom: 2px solid #333333b2 ;
+    width: 390px;
+   user-select: none;
+}
+
+.parrafo-about {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.parrafo-about p {
+    position: relative;
+    top: 270px;
+    text-align: justify;
+    width: 50%;
+    text-transform: var(--fuente-1);
+    color: var(--color-4);
+margin: auto;
+}

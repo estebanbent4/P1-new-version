@@ -1,0 +1,55 @@
+#proyectos {
+    position: relative;
+    top: 300px;
+    
+}
+
+
+
+
+.titulo-proyectos {
+  display: flex;
+  justify-content: center;
+    margin: auto;
+    position: relative;
+    top: 100px;
+    font-family: var(--fuente-2);
+    color: var(--color-3);
+    text-transform: uppercase;
+
+    width: 390px;
+    user-select: none;
+}
+
+
+.cont-img{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+margin: 30px;
+
+}
+
+.imagenes {
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 200;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 150px;
+    width: 205px;
+    height: 205px;
+    margin: 20px;
+    border-radius: 10px;
+    transition: .5s;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.imagenes:hover{
+    transform: translateY(-10px);
+    transition: .5s;
+   
+}

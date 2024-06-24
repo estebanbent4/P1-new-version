@@ -1,0 +1,23 @@
+
+
+.welcome h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 120px;
+    color: var(--color-4);
+    font-family: var(--fuente-1);
+    text-transform: uppercase;
+    z-index: -1;
+}
+
+.h1-home{
+
+    color: var(--color-3);
+    margin-left: 15px;
+    text-transform: uppercase;
+    font-family: 'Geologica', sans-serif;
+    user-select: none;
+}
+

@@ -1,0 +1,47 @@
+.modal-content{
+    display: flex;
+    margin: auto;
+    position: relative;
+    bottom: 100px;
+    border-radius: 20px;
+    height: 390px;
+    width: 550px;
+    
+     
+}
+.modal-header h4{
+    display: flex;
+    margin: auto;
+    position: relative;
+    left: calc(10%) ;
+    transform: uppercase;
+    font-size: 20px;
+    font-family: var(--fuente-1);
+    color: var(--color-blanco);
+   
+}
+.modal-header{
+    border-radius: 20px;
+    background-color: var(--color-1);
+    border-bottom: none;
+    
+}
+.btn-close{
+    background-color:var(--color-blanco);
+}
+.modal-header{
+    background-color: var(--color-1);
+}
+
+.modal2{
+    display: none;
+}
+
+.carousel-inner{
+transition: .5s;
+}
+
+
+#modal{
+    background-color: var(--color-1);
+}
