@@ -4,7 +4,6 @@
     background-color: transparent;
     position: fixed;
     display: flex;
-    
     justify-content: center;
     align-items: center;
     transition: .5s;
@@ -54,7 +53,9 @@ a {
 
 /*Comienzo de hover*/
 
-
+i{
+    visibility: hidden;
+}
 .nav-bar a.header-link::after {
     content: "";
     border-bottom: 3px solid var(--color-3);
@@ -86,6 +87,7 @@ a.header-link:hover::after {
     color: var(--color-3);
     transition: .5s;
 }
+
 
 
 /*Fin de header*/
