@@ -1,4 +1,6 @@
-
+.welcome{
+    margin-left: 40px;
+}
 
 .welcome h1{
     display: flex;
@@ -14,6 +16,15 @@
 
 .h1-home{
 
+    color: var(--color-3);
+    margin-left: 15px;
+    text-transform: uppercase;
+    font-family: 'Geologica', sans-serif;
+    user-select: none;
+}
+
+.h1-home2{
+display: none;
     color: var(--color-3);
     margin-left: 15px;
     text-transform: uppercase;
