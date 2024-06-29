@@ -10,14 +10,13 @@
 .titulo-proyectos {
   display: flex;
   justify-content: center;
-    margin: auto;
+  align-items: center;
     position: relative;
     top: 100px;
     font-family: var(--fuente-2);
     color: var(--color-3);
     text-transform: uppercase;
-    border-bottom: 2px solid #333333b2 ;
-    width: 390px;
+    width: 100%;
     user-select: none;
 }
 

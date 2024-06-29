@@ -12,6 +12,22 @@ html{
     scroll-behavior: smooth;
 }
 
+/* Ocultar la barra de scroll */
+body::-webkit-scrollbar {
+    width: 0; /* ancho de la barra de scroll */
+    height: 0; /* alto de la barra de scroll */
+  }
+  
+  /* Personalizar el aspecto de la barra de scroll */
+  body::-webkit-scrollbar-thumb {
+    background-color: #ccc; /* color de fondo del thumb */
+    border-radius: 10px; /* radio de curvatura del thumb */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background-color: #f0f0f0; /* color de fondo del track */
+  }
+
 :root{
     /* --color-1: rgb(228, 228, 228); */
      --color-1: rgb(20, 20, 20); 

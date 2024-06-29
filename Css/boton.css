@@ -1,0 +1,70 @@
+/*
+boton para subir arriba 
+*/
+
+
+.Btn {
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    top: 90%; /* inicialmente en la mitad de la pantalla */
+    right: 15px;
+    background: var(--color-1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 1px rgb(58, 58, 58) solid;
+    opacity: 0; /* inicialmente oculto */
+    transition:  .3s; /* agregar transición para que el botón aparezca suavemente */
+    z-index: 1;
+  }
+  
+  .Btn.show {
+    opacity: 1; /* mostrar el botón cuando se cumpla la condición */
+    transition:  .3s;
+  }
+  
+  .arrow path {
+    fill: var(--color-3);
+  }
+  
+  .text {
+    font-size: 0.7em;
+    width: 100px;
+    position: absolute;
+    color: var(--color-3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: -40px;
+    opacity: 0;
+    transition-duration: .7s;
+  }
+  
+  .Btn:hover .text {
+    opacity: 1;
+    transition-duration: .7s;
+  }
+  
+  .Btn:hover .arrow {
+    animation: slide-in-bottom .7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  }
+  
+  @keyframes slide-in-bottom {
+    0% {
+      transform: translateY(10px);
+      opacity: 0;
+    }
+  
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  
+  /*
+  boton para subir arriba 
+  */

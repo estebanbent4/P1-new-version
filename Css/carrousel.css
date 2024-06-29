@@ -3,4 +3,10 @@
     top: 200px;
     z-index: -1;
   }
+.modal-content img{
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-y: auto; /* Permite que el contenido se desplace verticalmente */
 
+border-radius:  0 20px 20px 0;
+}

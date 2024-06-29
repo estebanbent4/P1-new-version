@@ -32,3 +32,6 @@ display: none;
     user-select: none;
 }
 
+.h1-2{
+    visibility: hidden;
+}

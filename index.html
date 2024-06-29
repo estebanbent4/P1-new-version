@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="Css/proyectos.css">
     <link rel="stylesheet" href="css/contact.css">
     <link rel="stylesheet" href="Css/responsive.css">
+    <link rel="stylesheet" href="Css/boton.css">
 </head>
 <body>
     <header id="header1" class="header">
@@ -47,6 +48,19 @@
                 bienvenidos
             </h1>
         
+            <!--
+            Flecha para volver a arriba
+            -->
+                <a href="#Inicio">
+            <button class="Btn">
+                <svg height="1.2em" class="arrow" viewBox="0 0 512 512"><path d="M233.4 105.4c12.5-12.5 32.8-12.5 45.3 0l192 192c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L256 173.3 86.6 342.6c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3l192-192z"></path></svg>
+              <p class="text">Subir</p>
+              </button>
+            </a>
+               <!--
+            Flecha para volver a arriba
+            -->
+              
         <div class="carrousel">
             <section class="carrusel">
                 <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
@@ -143,10 +157,11 @@
 
                             <!-- Modal Header -->
                             <div class="modal-header">
-                                <h4 class="modal-title">ejemplo de Carrusel</h4>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                    style="z-index: 2;"></button>
-                            </div>
+                                <div class="modal-title-container">
+                                 
+                                </div>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" style="z-index: 2;"></button>
+                              </div>
 
                             <div class="carousel-inner" data-bs-interval="false">
                                 <div class="carousel-item active">
@@ -202,6 +217,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script src="Js/header.js"></script>
     <script src="Js/menu-hamburguesa.js"></script>
+    <script src="Js/boton-arriba.js"></script>
     <script src="https://kit.fontawesome.com/242a8f5c81.js" crossorigin="anonymous"></script>
 <!-- links de bootstrap y Js-->
 
