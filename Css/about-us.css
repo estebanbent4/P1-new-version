@@ -1,10 +1,8 @@
-
-
-.titulo-about h2{
+.titulo-about h2 {
     display: flex;
     justify-content: center;
     align-content: center;
-    
+
 }
 
 
@@ -17,13 +15,14 @@
     color: var(--color-3);
     text-transform: uppercase;
     width: 390px;
-   user-select: none;
+    user-select: none;
 }
 
 .parrafo-about {
     display: flex;
-    justify-content: space-around;
-
+    justify-content: center;
+    flex-wrap: wrap;
+    user-select: none;
 }
 
 .parrafo-about p {
@@ -33,5 +32,5 @@
     width: 50%;
     text-transform: var(--fuente-1);
     color: var(--color-4);
-margin: auto;
+    margin: auto;
 }

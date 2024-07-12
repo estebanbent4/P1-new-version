@@ -1,8 +1,8 @@
-.welcome{
+.welcome {
     margin-left: 40px;
 }
 
-.welcome h1{
+.welcome h1 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,9 +12,10 @@
     font-family: var(--fuente-1);
     text-transform: uppercase;
     z-index: -1;
+    user-select: none;
 }
 
-.h1-home{
+.h1-home {
 
     color: var(--color-3);
     margin-left: 15px;
@@ -23,8 +24,8 @@
     user-select: none;
 }
 
-.h1-home2{
-display: none;
+.h1-home2 {
+    display: none;
     color: var(--color-3);
     margin-left: 15px;
     text-transform: uppercase;
@@ -32,6 +33,6 @@ display: none;
     user-select: none;
 }
 
-.h1-2{
+.h1-2 {
     visibility: hidden;
 }

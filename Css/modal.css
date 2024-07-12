@@ -1,4 +1,4 @@
-.modal-content{
+.modal-content {
     display: flex;
     margin: auto;
     position: relative;
@@ -7,32 +7,34 @@
     height: 390px;
     width: 550px;
     flex-wrap: nowrap;
-  overflow-y: auto;
-     
+    overflow-y: auto;
+
 }
 
-.modal-header{
+.modal-header {
     border-radius: 20px;
     background-color: var(--color-1);
     border-bottom: none;
-    
+
 }
-.btn-close{
-    background-color:var(--color-blanco);
+
+.btn-close {
+    background-color: var(--color-blanco);
 }
-.modal-header{
+
+.modal-header {
     background-color: var(--color-1);
 }
 
-.modal2{
-    display: none ;
+.modal2 {
+    display: none;
 }
 
-.carousel-inner{
-transition: .5s;
+.carousel-inner {
+    transition: .5s;
 }
 
 
-#modal{
+#modal {
     background-color: var(--color-1);
 }

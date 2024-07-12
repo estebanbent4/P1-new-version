@@ -9,14 +9,14 @@ const links = document.querySelectorAll('.header-link');
 
 
 
-menu.addEventListener('click', function(){
+menu.addEventListener('click', function () {
 
 
-containerLinks.classList.toggle('nav-bar')
-containerLinks.classList.toggle('nav-bar-active')
+  containerLinks.classList.toggle('nav-bar')
+  containerLinks.classList.toggle('nav-bar-active')
 
-                                                   
-    
+
+
 });
 
 

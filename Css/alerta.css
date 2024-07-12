@@ -1,0 +1,19 @@
+.alert-border {
+    border: 1px solid #d50b0b;
+    border-radius: 5px;
+    user-select: none;  
+}
+
+.alert-border1 {
+    border: 1px solid #2cd40a;
+    border-radius: 5px;
+    user-select: none;
+}
+
+.no-scroll {
+    overflow: hidden;
+  }
+  
+  .scroll {
+    overflow: auto;
+  }

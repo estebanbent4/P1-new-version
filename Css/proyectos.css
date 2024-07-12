@@ -1,16 +1,16 @@
 #proyectos {
     position: relative;
     top: 300px;
-    
+
 }
 
 
 
 
 .titulo-proyectos {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
     top: 100px;
     font-family: var(--fuente-2);
@@ -21,12 +21,12 @@
 }
 
 
-.cont-img{
-display: flex;
-flex-wrap: wrap;
-justify-content: center;
-align-items: center;
-margin: 30px;
+.cont-img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
 
 }
 
@@ -47,8 +47,8 @@ margin: 30px;
     cursor: pointer;
 }
 
-.imagenes:hover{
+.imagenes:hover {
     transform: translateY(-10px);
     transition: .5s;
-   
+
 }
