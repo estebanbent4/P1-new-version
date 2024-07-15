@@ -68,6 +68,10 @@ document.getElementById('boton-correo').addEventListener("click", (event) => {
 
     });
   } else {
+
+    const formulario = document.getElementById('formulario'); 
+    formulario.submit();
+
     Swal.fire({
       icon: "success",
       title: "Envio exitoso",
